@@ -1,8 +1,16 @@
 {
-  "name": "pkg-a",
+  "name": "@gatanaso/pkg-a",
   "version": "0.1.0",
   "description": "A test package A",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "scripts": {
+    "build": "echo building..."
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@gatanaso/pkg-b": "^0.1.0"
+  }
 }
