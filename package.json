@@ -1,0 +1,8 @@
+{
+  "name": "pkg-a",
+  "version": "0.1.0",
+  "description": "A test package A",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}
