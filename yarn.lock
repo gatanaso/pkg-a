@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@gatanaso/pkg-b@^0.1.0":
-  version "0.1.0"
-  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.0/7bcfaa743721c0cd7d0d47bf1d298555e366d62845741b3e627feb2114f86dd2#c206db84d6ed618e1202865d6672986594ac5575"
-  integrity sha512-BvPWrsp0G105GWHkMv1wjsesdLjENpltvBNSy/cScxJ7NuMe8cYLjoR+TyodHc+2LJASOLgJmcWI4/asjzBFwg==
+"@gatanaso/pkg-b@^0.1.1-0":
+  version "0.1.1-0"
+  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.1-0/67a7cb1a82a4d9c10c4e46b92c203ce208c24e9b844007f04460954624046c27#86bc1f3f8ca79768f70f47c5b98ea5fd8d0198fa"
+  integrity sha512-5Om6FW7P8yulUMLb5Va6uLLNJQ37eJg9jaOHZY0e/K/sfkU5zRFLGyW0zFLYh8dOwMxWguo2+arqOZS5ew+6Ow==
