@@ -3,6 +3,6 @@
 
 
 "@gatanaso/pkg-b@^0.1.1-0":
-  version "0.1.1-0"
-  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.1-0/67a7cb1a82a4d9c10c4e46b92c203ce208c24e9b844007f04460954624046c27#86bc1f3f8ca79768f70f47c5b98ea5fd8d0198fa"
-  integrity sha512-5Om6FW7P8yulUMLb5Va6uLLNJQ37eJg9jaOHZY0e/K/sfkU5zRFLGyW0zFLYh8dOwMxWguo2+arqOZS5ew+6Ow==
+  version "0.1.1-1"
+  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.1-1/c2a9ed5e1a79207322c42e2d6c07d33ed4a3ce0b11382093406ca935af13243e#e91353cf9af40aaa6ced5692013b6c5efc8f9bf5"
+  integrity sha512-PO/rDgAi7clB6sepxpADYZqIJOF7ygGe0/cMkyig/Ka3l7yO2Pji7UyLQDC5LguGHQWZDT+xiYJC3O/pMPaBTw==
