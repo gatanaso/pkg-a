@@ -4,5 +4,5 @@
 
 "@gatanaso/pkg-b@^0.1.0":
   version "0.1.0"
-  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.0/305043de0d8c42d9806678c03530c3facd3141d436992e7d56377b860c66381f#0ae4524e7600db84592b9aed60c4d2b3fedf2446"
-  integrity sha512-hjIxYm2gBK98Do1CYPNAdRs0Qall+PBsPHE3vArW8DKLhwzoF2dA+lYOKcyHzzh5EEPzufQLUtlDiwD4fN8mow==
+  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.0/7bcfaa743721c0cd7d0d47bf1d298555e366d62845741b3e627feb2114f86dd2#c206db84d6ed618e1202865d6672986594ac5575"
+  integrity sha512-BvPWrsp0G105GWHkMv1wjsesdLjENpltvBNSy/cScxJ7NuMe8cYLjoR+TyodHc+2LJASOLgJmcWI4/asjzBFwg==
