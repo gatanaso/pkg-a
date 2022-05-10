@@ -19,7 +19,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@gatanaso/pkg-b": "^0.1.5-2"
+    "@gatanaso/pkg-b": "^0.1.5"
   },
   "devDependencies": {
     "@release-it/bumper": "^4.0.0",
