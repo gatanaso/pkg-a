@@ -21,8 +21,8 @@ on:
         required: true
         options:
           - "no update"
-          - "update (based on version range)"
-          - "update latest (ignore version range)"
+          - "update"
+          - "update latest"
 
 jobs:
   release:
