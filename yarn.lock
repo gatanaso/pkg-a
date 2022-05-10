@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@gatanaso/pkg-b@^0.1.1":
-  version "0.1.2"
-  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.2/fab916e8ba42b2f7ece5ddaa05fe75971d8dbcc347b88454c387a1a939684939#d5f7cbd174584a2b60d9f28e3d563449fb2c2218"
-  integrity sha512-eWRPsLodw/uuOL69J5JEPyUPt17tzojpADJfOp/2HbuwZQBW0tPGoXavAjjPHoQ5yV3+aQabzeTQBQcYjSkJ2w==
+"@gatanaso/pkg-b@^0.1.3-1":
+  version "0.1.3-1"
+  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.1.3-1/a2782a76f604e58239f28cd244f3aa61cd4641804dc25af0c03ee7bfa14396a4#92f559f39488274baa85733db0bde01d8ac22f62"
+  integrity sha512-CNEV9qCmI3uLnWEKVdwMqqjYUra267lc9hGaTTCkhFwVMkH0cQDVRbwMVCaeoe6HTgbdyuoECPLY7YrtwdhoPQ==
 
 "@iarna/toml@2.2.5", "@iarna/toml@^2.2.5":
   version "2.2.5"
