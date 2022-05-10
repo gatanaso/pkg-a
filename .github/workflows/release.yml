@@ -58,14 +58,18 @@ jobs:
             echo "updating pkg-b to the latest version available"
             yarn upgrade @gatanaso/pkg-b --latest;
           else 
-            echo "not updating pkg-b version"
+            echo "Not updating pkg-b version"
           fi
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
       - name: Commit version update
         run: |
-          (git commit -am '[automated commit] bump pkg-b version') || true
-          (git push) || true
+          if [[ "${{github.event.inputs.updateDeps}}" != "no update" ]]; then
+            (git commit -am '[automated commit] bump pkg-b version') || true
+            (git push) || true
+          else
+            echo "Nothing to commit as not updating pkg-b version"
+          fi
       - name: Release to GitHub
         run: yarn run release:${{ github.event.inputs.version }}
         env:
