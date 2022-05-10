@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@gatanaso/pkg-a",
-  "version": "0.1.0",
+  "version": "0.1.0-0",
   "description": "A test package A",
   "main": "index.js",
   "license": "MIT",
