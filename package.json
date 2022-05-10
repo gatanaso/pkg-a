@@ -6,12 +6,23 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "echo building..."
+    "build": "echo building...",
+    "release:major": "release-it -- major --ci",
+    "release:minor": "release-it -- minor --ci",
+    "release:patch": "release-it -- patch --ci",
+    "release:premajor": "release-it -- premajor --ci",
+    "release:preminor": "release-it -- preminor --ci",
+    "release:prepatch": "release-it -- prepatch --ci",
+    "release:prerelease": "release-it -- prerelease --ci"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@gatanaso/pkg-b": "^0.1.1"
+  },
+  "devDependencies": {
+    "@release-it/bumper": "^4.0.0",
+    "release-it": "^15.0.0"
   }
 }
