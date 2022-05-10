@@ -15,6 +15,14 @@ on:
           - major
           - minor
           - patch
+      updateDeps:
+        type: choice
+        description: "Update pkg-b?"
+        required: true
+        options:
+          - "no update"
+          - "update (based on version range)"
+          - "update latest (ignore version range)"
 
 jobs:
   release:
@@ -42,7 +50,16 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
       - name: Update pkg-b version
-        run: yarn upgrade @gatanaso/pkg-b --latest
+        run: |
+          if [[ "${{github.event.inputs.updateDeps}}" == "update" ]]; then
+            echo "updating pkg-b based on range defined in package.json"
+            yarn upgrade @gatanaso/pkg-b;
+          elif [[ "${{github.event.inputs.updateDeps}}" == "update latest" ]]; then
+            echo "updating pkg-b to the latest version available"
+            yarn upgrade @gatanaso/pkg-b --latest;
+          else 
+            echo "not updating pkg-b version"
+          fi
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
       - name: Commit version update
