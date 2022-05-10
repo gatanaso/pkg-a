@@ -52,23 +52,31 @@ jobs:
       - name: Update pkg-b version
         run: |
           if [[ "${{github.event.inputs.updateDeps}}" == "update" ]]; then
-            echo "updating pkg-b based on range defined in package.json"
+            echo "Updating pkg-b based on range defined in package.json"
             yarn upgrade @gatanaso/pkg-b;
           elif [[ "${{github.event.inputs.updateDeps}}" == "update latest" ]]; then
-            echo "updating pkg-b to the latest version available"
+            echo "Updating pkg-b to the latest version available"
             yarn upgrade @gatanaso/pkg-b --latest;
           else 
-            echo "Not updating pkg-b version"
+            echo "Skipping pkg-b version update"
           fi
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
+      - name: Build project
+        run: |
+          if [[ "${{github.event.inputs.updateDeps}}" != "no update" ]]; then
+            echo "Building project"
+            yarn build
+          else
+            echo "Skipping build"
+          fi
       - name: Commit version update
         run: |
           if [[ "${{github.event.inputs.updateDeps}}" != "no update" ]]; then
-            (git commit -am '[automated commit] bump pkg-b version') || true
+            (git commit -am '[automated commit] Bump pkg-b version') || true
             (git push) || true
           else
-            echo "Nothing to commit as not updating pkg-b version"
+            echo "Skipping commit"
           fi
       - name: Release to GitHub
         run: yarn run release:${{ github.event.inputs.version }}
