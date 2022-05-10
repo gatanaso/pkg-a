@@ -42,7 +42,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
       - name: Update pkg-b version
-        run: yarn upgrade @gatanaso/pkg-b ---latest
+        run: yarn upgrade @gatanaso/pkg-b --latest
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
       - name: Commit version update
