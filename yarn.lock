@@ -24,9 +24,9 @@
     js-tokens "^4.0.0"
 
 "@gatanaso/pkg-b@^0.2.0-0":
-  version "0.2.0-1"
-  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.2.0-1/9297b250d902b0640c546774b78e046416a2a679befd5683cc42e42832bfd4ee#5eaf743b6daddb1b4bd3ae086f175f68b6dafff2"
-  integrity sha512-bpHKDHKa4rz8kWVQ4ZLrvWW2ixIY3kzVt7Z0h7GuuY4am3iyHkghPbOFqJjZ3OsH6bZCwhtmLqCHMWOXy6IOgg==
+  version "0.2.0-2"
+  resolved "https://npm.pkg.github.com/download/@gatanaso/pkg-b/0.2.0-2/c3266764bccf522fdf9852b8c4a268dd9f94367217dcd6593765f556036ecd60#be8fc8ef44337dfac709c97c0959f30de73496f2"
+  integrity sha512-41iwg6qXEycJDB+IfaTA6JLIq4fd04V9VnrEvcBK6cfg26cu/rP7thlH/GAGMKmcgvu9JUW50dryshBtzCRGqw==
 
 "@iarna/toml@2.2.5", "@iarna/toml@^2.2.5":
   version "2.2.5"
