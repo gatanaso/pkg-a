@@ -47,8 +47,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
       - name: Commit version update
         run: |
-          git commit -am '[automated commit] bump pkg-b version'
-          git push
+          (git commit -am '[automated commit] bump pkg-b version') || true
+          (git push) || true
       - name: Release to GitHub
         run: yarn run release:${{ github.event.inputs.version }}
         env:
