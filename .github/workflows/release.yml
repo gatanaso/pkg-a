@@ -33,14 +33,22 @@ jobs:
           scope: "@gatanaso"
       - name: Git config
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name ${{github.actor}}
+          git config user.email ${{github.actor}}@users.noreply.github.com
       - name: Clean 'yarn' cache
         run: yarn cache clean
       - name: Install dependencies
         run: yarn
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
+      - name: Update pkg-b version
+        run: yarn upgrade @gatanaso/pkg-b ---latest
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPMRC_TOKEN}}
+      - name: Commit version update
+        run: |
+          git commit -am '[automated commit] bump pkg-b version'
+          git push
       - name: Release to GitHub
         run: yarn run release:${{ github.event.inputs.version }}
         env:
