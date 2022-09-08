@@ -13,6 +13,9 @@
     "@release-it/bumper": {
       "in": "package.json",
       "out": "package.json"
+    },
+    "@release-it/keep-a-changelog": {
+      "strictLatest": false
     }
   }
 }
