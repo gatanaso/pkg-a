@@ -1,3 +1,3 @@
-# pkg-b
+# pkg-a
 
-Hello from Package B!
+Hello from Package A, which depends on Package B.
