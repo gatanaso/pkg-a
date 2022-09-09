@@ -15,6 +15,7 @@
       "out": "package.json"
     },
     "@release-it/keep-a-changelog": {
+      "addUnreleased": true,
       "strictLatest": false,
       "head": "main",
       "addVersionUrl": true,
