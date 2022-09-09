@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2022-09-09
+
 ### Changed
 
 - Modified the release-it keep-a-changelog plugin configuration to link to release
@@ -29,3 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated project Readme
+
+[unreleased]: https://github.com/gatanaso/pkg-a/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/gatanaso/pkg-a/compare/v0.2.0-1...v0.2.0
