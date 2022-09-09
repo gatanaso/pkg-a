@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Modified the release-it keep-a-changelog plugin configuration to link to release
+
 ## [0.2.0-1] - 2022-09-09
 
 ### Changed
