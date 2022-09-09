@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2022-09-09
+
 - Patch release
 
 ## [0.2.1-0] - 2022-09-09
@@ -46,6 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated project Readme
 
-[unreleased]: https://github.com/gatanaso/pkg-a/compare/v0.2.1-0...main
+[unreleased]: https://github.com/gatanaso/pkg-a/compare/v0.2.1...main
+[0.2.1]: https://github.com/gatanaso/pkg-a/releases/tag/v0.2.1
 [0.2.1-0]: https://github.com/gatanaso/pkg-a/releases/tag/v0.2.1-0
 [0.2.0]: https://github.com/gatanaso/pkg-a/releases/tag/v0.2.0
