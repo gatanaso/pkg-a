@@ -16,7 +16,8 @@
     },
     "@release-it/keep-a-changelog": {
       "strictLatest": false,
-      "addUnreleased": true
+      "addUnreleased": true,
+      "addVersionUrl": true
     }
   }
 }
