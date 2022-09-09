@@ -16,8 +16,11 @@
     },
     "@release-it/keep-a-changelog": {
       "strictLatest": false,
-      "addUnreleased": true,
-      "addVersionUrl": true
+      "head": "main",
+      "addVersionUrl": true,
+      "versionUrlFormats": {
+        "versionUrl": "{repositoryUrl}/releases/tag/{tagName}"
+      }
     }
   }
 }
