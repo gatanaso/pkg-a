@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Improved the log message capitalisation
+- Experimenting with the keep-a-changelog config
+- Updated changelog and modified version URLs
+
+### Removed
+
+- Removed the 'addUnreleased' flag from the config
+
 ## [0.2.0] - 2022-09-09
 
 ### Changed
@@ -32,5 +42,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated project Readme
 
-[unreleased]: https://github.com/gatanaso/pkg-a/compare/v0.2.0...HEAD
-[0.2.0]: https://github.com/gatanaso/pkg-a/compare/v0.2.0-1...v0.2.0
+[unreleased]: https://github.com/gatanaso/pkg-a/compare/v0.2.0...main
+[0.2.0]: https://github.com/gatanaso/pkg-a/releases/tag/v0.2.0
